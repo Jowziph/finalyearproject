@@ -1,0 +1,15 @@
+!parameter file (namelist)
+&parameters
+  npre = 2
+  npost = 2
+  ncoarse = 4
+  nlevel = 10
+  mg_iter = 1
+  omega = 0.8
+  alpha = 1.0
+  beta = 1.0
+  dim = 1024
+  precision = 1
+  tolerance = 1D-8
+  maxiter = 1000
+/
